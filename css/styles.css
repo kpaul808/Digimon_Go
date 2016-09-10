@@ -1,7 +1,101 @@
+@font-face{
+	font-family: silom;
+	src: url(assets/Silom.ttf);
+}
+
 body{
-	display: flex;
+	display: inline-block;
+	background-color: #0066cc;
+	width: 100vw;
+	margin: 0px;
+	font-family: silom;
 }
 
 .icon{
 	height: 30px;
+	height: 3000px;
+	height: 30px;
 }
+
+.header{
+	background-color: white;
+	width: 100vw;
+	height: 9vh;
+}
+
+h2{
+	text-decoration: underline;
+}
+
+.info{
+	background-color: white;
+	border-radius: 25px;
+	z-index: 1234567890;
+}
+
+a{
+	text-align: right;
+}
+
+.innerheader{
+	line-height: 11vh;
+}
+
+div#info1{
+	margin-left: 9vh;
+	margin-top: 9vh;
+	width: 600px;
+	display: inline-block;
+	float: left;
+}
+
+.innerinfo1{
+	margin: 20px;
+}
+
+.info1p{
+	width: 200px;
+	margin: 0px;
+	float: left;
+}
+
+.talkie{
+	float: left;
+	margin-left: 100px;
+}
+
+.heroes{
+	z-index: -1;
+	float: left;
+}
+
+.maincontent{
+	margin-top: 9vh;
+	height: auto;
+}
+
+.footer{
+	background-color: #404040;
+	color: white;
+	height: 5vh;
+	text-align: center;
+	margin-top: -20px;
+
+}
+
+.bottominfo{
+	background-color: #f2f2f2;
+	height: 35vh;
+	margin-top: 60vh;
+	z-index: -1;
+	display: flex;
+	justify-content: space-around;
+}
+
+div#bottominnerinfo{
+	width: 25vw;
+	height: 18vh;
+	float: left;
+	margin-top: 9vh;
+}
+
