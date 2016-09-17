@@ -4,17 +4,19 @@
 }
 
 body{
-	display: inline-block;
+	display: inline;
 	background-color: #0066cc;
 	width: 100vw;
 	margin: 0px;
 	font-family: silom;
+	min-width: 1330px;
 }
 
 .icon{
 	height: 30px;
 	height: 3000px;
 	height: 30px;
+	margin-left: 75px;
 }
 
 .header{
@@ -24,8 +26,12 @@ body{
 }
 
 h2{
-	text-decoration: underline;
+	text-decoration: none;
 	color: #0066cc;
+	border-bottom: 2px solid gray;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 10px;
 }
 
 .info{
@@ -49,9 +55,10 @@ a:hover{
 div#info1{
 	margin-left: 9vh;
 	margin-top: 9vh;
-	width: 600px;
+	width: 36vw;
 	display: inline-block;
 	float: left;
+	min-width: 496px;
 }
 
 .innerinfo1{
@@ -73,6 +80,8 @@ div#info1{
 .heroes{
 	z-index: -1;
 	float: left;
+	width: 50vw;
+	min-height: 300px;
 }
 
 .maincontent{
@@ -86,6 +95,7 @@ div#info1{
 	height: 5vh;
 	text-align: center;
 	margin-top: -20px;
+	min-height: 53px;
 
 }
 
@@ -96,6 +106,7 @@ div#info1{
 	z-index: -1;
 	display: flex;
 	justify-content: space-around;
+	min-height: 280px;
 }
 
 div#bottominnerinfo{
@@ -105,6 +116,13 @@ div#bottominnerinfo{
 	margin-top: 9vh;
 	border: 5px gray solid;
 	text-align: center;
+	min-height: 220px;
+	min-width: 336px;
+}
+
+div#bottominnerinfo:hover{
+	border: 5px orange solid;
+
 }
 
 ol{
@@ -113,6 +131,39 @@ ol{
 }
 
 div#adiv{
-	/*margin-left: 80vw;*/
+	float: right;
 }
 
+.l{
+	margin-top: -20px;
+}
+
+p#cop{
+	padding-top: 17px;
+}
+
+a:hover{
+	margin-right: 60px;
+	text-decoration: none;
+	padding-bottom: 10px;
+	border-bottom: 3px solid orange;
+}
+
+a{
+	padding-bottom: 10px;
+	margin-right: 60px;
+	text-decoration: none;
+}
+
+.one{
+	width: 61%;
+}
+
+.others{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+li{
+	margin-bottom: 5px;
+}
